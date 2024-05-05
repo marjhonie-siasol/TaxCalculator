@@ -39,14 +39,12 @@ public class TaxCalculator {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        // ------------------------------------------------------------------------------
-        // Scientific notation representation of the number can be displayed as a
-        // regular decimal number by using - String.format() method
+       
         System.out.println("|                     ANNUAL INCOME -> " + String.format("%.0f", annualIncome));
         System.out.println("|                      GROSS INCOME -> " + String.format("%.0f", grossIncome));
         // ------------------------------------------------------------------------------
 
-        // Tax calculation under old tax regime
+        
         double taxOld = 0;
         if (annualIncome <= 500000) {
             taxOld = 0;
