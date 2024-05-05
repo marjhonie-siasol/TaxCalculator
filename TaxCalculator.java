@@ -42,7 +42,7 @@ public class TaxCalculator {
        
         System.out.println("|                     ANNUAL INCOME -> " + String.format("%.0f", annualIncome));
         System.out.println("|                      GROSS INCOME -> " + String.format("%.0f", grossIncome));
-        // ------------------------------------------------------------------------------
+        
 
         
         double taxOld = 0;
@@ -95,7 +95,7 @@ public class TaxCalculator {
         System.out.println("|-----------------------------------------------------------------------|");
         System.out.println("|                             !! NOTE !!                                |");
         System.out.println("|-----------------------------------------------------------------------|");
-        // Comparison of tax payable under both regimes
+       
         if (taxNew < taxOld) {
             System.out.println("|             YOU CAN SAVE TAX BY OPTING FOR THE NEW REGIME.            |");
         } else {
