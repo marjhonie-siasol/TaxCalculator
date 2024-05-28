@@ -44,7 +44,6 @@ public class TaxCalculator {
         System.out.println("|                      GROSS INCOME -> " + String.format("%.0f", grossIncome));
         
 
-        
         double taxOld = 0;
         if (annualIncome <= 500000) {
             taxOld = 0;
