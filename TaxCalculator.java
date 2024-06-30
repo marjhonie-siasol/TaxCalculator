@@ -8,6 +8,7 @@ public class TaxCalculator {
         System.out.print("|-----------------------------------------------------------------------|\n");
         Scanner sc = new Scanner(System.in);
         System.out.print("|       * ENTER YOUR NAME -> ");
+        
         String name = sc.nextLine();
         System.out.println("|-----------------------------------------------------------------------|");
 
