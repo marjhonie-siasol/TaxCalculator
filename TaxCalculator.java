@@ -1,7 +1,6 @@
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
-
 public class TaxCalculator {
     public static void main(String[] args) {
         System.out.println("|-----------------------------------------------------------------------|");
